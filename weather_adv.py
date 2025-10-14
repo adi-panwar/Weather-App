@@ -13,7 +13,7 @@ class WeatherApp:
         self.root.configure(bg="#909ff1")
         
         
-        self.API_KEY = "cf93c77b0562af9a26934aeed48fb095"  
+        self.API_KEY = "your api enter here"  
         self.BASE_URL = "http://api.openweathermap.org/data/2.5/"
         
         
@@ -463,4 +463,5 @@ def main():
     root.mainloop()
 
 if __name__ == "__main__":
+
     main()
