@@ -1,6 +1,6 @@
 import requests
 
-api_key = "cf93c77b0562af9a26934aeed48fb095"  
+api_key = "your api enter here"  
 base_url = "https://api.openweathermap.org/data/2.5/weather"
 
 city = input("Enter city name: ")
@@ -16,3 +16,4 @@ if response.status_code == 200:
     print(f"Condition: {data['weather'][0]['description'].title()}")
 else:
     print("City not found .")
+
